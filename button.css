@@ -1,0 +1,39 @@
+body {
+    font-family: Arial, sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    background-color: #f0f0f0;
+}
+
+.button-container {
+    top:500%;
+    display: flex;
+    gap: 20px;
+}
+
+.choice-button {
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    padding: 15px 30px;
+    font-size: 16px;
+    cursor: pointer;
+    border-radius: 5px;
+    transition: background-color 0.3s ease, transform 0.3s ease;
+}
+
+.choice-button:hover {
+    background-color: #45a049;
+    transform: scale(1.1);
+}
+
+.choice-button:active {
+    background-color: #388e3c;
+}
+
+#button{
+    top:500px;
+}
